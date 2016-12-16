@@ -51,7 +51,7 @@ def get_new_url():
     old_urls.add(url)
     return url
 
-#添加图片
+#添加要爬的网址
 def set_new_url(url):
     if len(url) > 0 and url not in new_urls and url not in old_urls:
         new_urls.add(url)
